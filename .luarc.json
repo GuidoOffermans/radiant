@@ -1,0 +1,17 @@
+{
+  "diagnostics": {
+    "globals": [
+      "radiant"
+    ]
+  },
+  "workspace": {
+    "library": [
+      "."
+    ],
+    "checkThirdParty": false
+  },
+  "completion": {
+    "enable": true,
+    "callSnippet": "Both"
+  }
+}

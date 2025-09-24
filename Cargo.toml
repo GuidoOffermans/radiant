@@ -1,0 +1,13 @@
+[package]
+name = "radiant"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+env_logger = "0.11"
+pollster = "0.4"
+log = "0.4"
+wgpu = "26.0.0"
+winit = { version = "0.30.8", features = ["android-native-activity"] }
+mlua = { version = "0.11.3", features=["lua54"]}
