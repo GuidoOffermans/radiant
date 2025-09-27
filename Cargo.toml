@@ -9,6 +9,8 @@ anyhow = "1.0"
 env_logger = "0.11"
 pollster = "0.4"
 log = "0.4"
-wgpu = "26.0.0"
-winit = { version = "0.30.8", features = ["android-native-activity"] }
+wgpu = "26.0.1"
+winit = { version = "0.30.12", features = ["android-native-activity"] }
+bytemuck = { version = "1.23", features = [ "derive" ] }
 mlua = { version = "0.11.3", features=["lua54"]}
+image = {version ="0.25", default-features = false, features = ["png","jpeg"]}
